@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-DB_PATH = "CASINO.db.db"
+DB_PATH = "casino.db"
 
 st.markdown("""
 <style>
