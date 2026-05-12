@@ -334,7 +334,7 @@ LEFT JOIN (
 ORDER BY v.year;
 """
 
-# 현재 DB의 한글 테이블명 기준으로도 실행되도록 동일 결과를 만드는 쿼리 사용
+# 시각화용 데이터 조회 쿼리
 sql_1_run = """
 SELECT
     A."연 도" AS year,
