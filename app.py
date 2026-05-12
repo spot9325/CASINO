@@ -204,7 +204,7 @@ hr {border-color: rgba(105,170,230,.22);}
 # =========================================================
 if not os.path.exists(DB_PATH):
     st.error("데이터베이스 파일을 찾을 수 없습니다.")
-    st.warning("app.py와 같은 폴더에 반드시 `casino.db` 파일을 업로드해 주세요. 파일명은 대소문자까지 맞아야 합니다.")
+    st.warning("casino.db 파일 경로를 확인해 주세요.")
     st.stop()
 
 @st.cache_data
