@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# 반드시 실제 업로드한 DB 파일명과 동일해야 함
+# SQLite 데이터베이스 경로
 DB_PATH = "casino.db"
 
 # =========================================================
